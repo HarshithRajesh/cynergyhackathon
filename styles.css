@@ -91,7 +91,7 @@ button {
 }
 
 .card-list .card-item {
-    background: #fff;
+    background: #68D2E8;
     padding: 26px;
     border-radius: 8px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
@@ -174,4 +174,53 @@ button {
     .card-list {
         margin: 0 auto;
     }
+}
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+.youtube-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 30%;
+}
+
+header {
+    background-color: #03AED2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Apply hover effect to navbar links */
+nav ul li a:hover {
+    color: #ffcc00; /* Change text color on hover */
+    text-decoration: underline; /* Underline text on hover */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition effect */
 }

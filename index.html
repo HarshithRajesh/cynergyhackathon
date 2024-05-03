@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthify</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Healthify</h1>
+    <div class="container">
+        <h1>Health & Wellness</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#appointments">Appointments</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
     <main>
         <section id="home">
             <h2>Better health Better LifeStyle</h2>
             <!-- Add introductory content here -->
         </section>
         <section id="blogs">
-             <div class="card-list">
-        <a href="#" class="card-item">
-            <img src="images/doctor.png" alt="Card Image">
-            <span class="developer">Developer</span>
-            <h3>A "developer" codes software and websites.</h3>
-            <div class="arrow">
-                <i class="fas fa-arrow-right card-icon"></i>
+            <div class="card-list">
+                <a href="https://www.healthline.com/health/best-healthy-living-blogs#1" class="card-item">
+                   
+                    <span class="developer">Health Line Blog</span>
+                    <h3>"Health is a state of complete harmony of the body, mind, and spirit. 
+                        When one is free from physical disabilities and mental distractions, 
+                        the gates of the soul open." - B.K.S. IyengarA "developer" 
+                        codes software and websites.</h3>
+                    <!-- <div class="arrow">
+                        <i class="fas fa-arrow-right card-icon"></i>
+                    </div> -->
+                </a>
+                <a href="https://timesofindia.indiatimes.com/readersblog/rambling-chaos/healthy-lifestyle-45897/" class="card-item">
+                    <span class="designer">TOI</span>
+                    <h3>A "designer" is a design expert."To keep the body in good health is a duty... 
+                        otherwise, we shall not be able to keep our mind strong and clear." - Buddha</h3>
+                    <!-- <div class="arrow">
+                        <i class="fas fa-arrow-right card-icon"></i>
+                    </div> -->
+                </a>
+                <a href="https://www.health.harvard.edu/blog" class="card-item">
+                    <span class="editor">Harvard Blog</span>
+                    <h3>An "editor" ensures content quality and accuracy.
+                        Good health and good sense are two of life's greatest blessings." - Publilius Syrus</h3>
+                    <!-- <div class="arrow">
+                        <i class="fas fa-arrow-right card-icon"></i>
+                    </div> -->
+                </a>
             </div>
-        </a>
-        <a href="#" class="card-item">
-            <img src="images/designer.jpg" alt="Card Image">
-            <span class="designer">Designer</span>
-            <h3>A "designer" is a design expert.</h3>
-            <div class="arrow">
-                <i class="fas fa-arrow-right card-icon"></i>
-            </div>
-        </a>
-        <a href="#" class="card-item">
-            <img src="images/editor.jpg" alt="Card Image">
-            <span class="editor">Editor</span>
-            <h3>An "editor" ensures content quality and accuracy.</h3>
-            <div class="arrow">
-                <i class="fas fa-arrow-right card-icon"></i>
-            </div>
-        </a>
-    </div>
 
         </section>
         <section id="videos">
-            <h2>Video Tutorials</h2>
-            <!-- Add YouTube video embeds -->
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="youtube-container">
+                <iframe class="youtube-video" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
-            <!-- Add more video embeds as needed -->
         </section>
         <section id="appointments">
             <h2>Book an Appointment</h2>
@@ -80,4 +88,5 @@
         <p>&copy; 2024 Healthify. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
