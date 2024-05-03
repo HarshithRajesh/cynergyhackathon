@@ -60,29 +60,24 @@
             </div>
 
         </section>
-        <section id="videos">
-            <div class="youtube-container">
-                <iframe class="youtube-video" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </section>
+
+
         <section id="appointments">
-            <h2>Book an Appointment</h2>
-            <!-- Add appointment booking form -->
-            <form action="book-appointment.php" method="POST">
-                <label for="doctor">Select Doctor:</label>
-                <select name="doctor" id="doctor">
-                    <option value="doctor1">Doctor 1</option>
-                    <option value="doctor2">Doctor 2</option>
-                    <!-- Add more doctor options -->
-                </select>
-                <label for="date">Select Date:</label>
-                <input type="date" id="date" name="date">
-                <button type="submit">Book Appointment</button>
-            </form>
-        </section>
+    <h2>Book an Appointment</h2>
+    <!-- Add appointment booking form -->
+    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+        <label for="doctor">Select Doctor:</label>
+        <select name="doctor" id="doctor">
+            <option value="doctor1">Doctor 1</option>
+            <option value="doctor2">Doctor 2</option>
+            <!-- Add more doctor options -->
+        </select>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date">
+        <button type="submit">Book Appointment</button>
+    </form>
+</section>
+
     </main>
     <footer>
         <p>&copy; 2024 Healthify. All rights reserved.</p>
