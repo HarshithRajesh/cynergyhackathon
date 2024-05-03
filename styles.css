@@ -8,12 +8,17 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-align: center;
+    align-items: center;
 }
 
 header {
     background-color: #68D2E8;
     color: #fff;
     padding: 20px;
+    align-self: center;
+    text-align: center;
+    
 }
 
 nav ul {
@@ -192,6 +197,8 @@ header {
 
 h1 {
     margin: 0;
+    text-align: center;
+    align-self: center;
 }
 
 nav ul {
