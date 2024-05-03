@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon</title>
+    <title>Healthify</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Healthify</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#appointments">Appointments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Better health Better LifeStyle</h2>
+            <!-- Add introductory content here -->
+        </section>
+        <section id="blogs">
+             <div class="card-list">
+        <a href="#" class="card-item">
+            <img src="images/doctor.png" alt="Card Image">
+            <span class="developer">Developer</span>
+            <h3>A "developer" codes software and websites.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="#" class="card-item">
+            <img src="images/designer.jpg" alt="Card Image">
+            <span class="designer">Designer</span>
+            <h3>A "designer" is a design expert.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="#" class="card-item">
+            <img src="images/editor.jpg" alt="Card Image">
+            <span class="editor">Editor</span>
+            <h3>An "editor" ensures content quality and accuracy.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+    </div>
+
+        </section>
+        <section id="videos">
+            <h2>Video Tutorials</h2>
+            <!-- Add YouTube video embeds -->
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- Add more video embeds as needed -->
+        </section>
+        <section id="appointments">
+            <h2>Book an Appointment</h2>
+            <!-- Add appointment booking form -->
+            <form action="book-appointment.php" method="POST">
+                <label for="doctor">Select Doctor:</label>
+                <select name="doctor" id="doctor">
+                    <option value="doctor1">Doctor 1</option>
+                    <option value="doctor2">Doctor 2</option>
+                    <!-- Add more doctor options -->
+                </select>
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit">Book Appointment</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Healthify. All rights reserved.</p>
+    </footer>
 </body>
 </html>
